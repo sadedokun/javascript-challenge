@@ -28,7 +28,7 @@ function handleclick() {
   buildTable(filterData);
 }
 
-d3.select("#reset").on("click", function () {
+d3.select("#clear-btn").on("click", function () {
   buildTable(data);
 });
 d3.select("#filter-btn").on("click", handleclick);
